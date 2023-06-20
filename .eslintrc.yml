@@ -1,0 +1,30 @@
+env:
+  browser: true
+  es2021: true
+extends:
+  - eslint:recommended
+  - plugin:react/recommended
+  - plugin:react/jsx-runtime
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+  sourceType: module
+plugins:
+  - react
+settings:
+  react:
+    version: detect
+rules:
+  "react/prop-types":
+    - 0
+  "no-unused-vars":
+    - 2
+    - varsIgnorePattern: "^_"
+      argsIgnorePattern: "^_"
+      ignoreRestSiblings: false
+  "no-alert":
+    - error
+  # "no-console":
+  #   - error 
+  "no-debugger":
+    - error
