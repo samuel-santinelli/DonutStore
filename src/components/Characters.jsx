@@ -25,16 +25,16 @@ const Characters = ({ characters }) => {
             {item.name}
           </div>
           <div className="w-full h-28 p-2 gap-3 text-sm flex flex-wrap font-normal">
-            <label className="bg-green-100 shadow-md w-14 h-8 rounded-md flex justify-center items-center">
+            <label className="bg-blue-200 shadow-md w-14 h-8 rounded-md flex justify-center items-center">
               {item.gender}
             </label>
-            <label className="bg-green-100 shadow-md w-14 h-8 rounded-md flex justify-center items-center">
+            <label className="bg-blue-200 shadow-md w-14 h-8 rounded-md flex justify-center items-center">
               {item.status}
             </label>
-            <label className="bg-green-100 shadow-md w-14 h-8 rounded-md flex justify-center items-center">
+            <label className="bg-blue-200 shadow-md w-14 h-8 rounded-md flex justify-center items-center">
               {item.species}
             </label>
-            <label className="bg-green-100 shadow-md w-full text-pp h-8 rounded-md flex justify-center items-center flex-nowrap">
+            <label className="bg-blue-200 shadow-md w-full text-pp h-8 rounded-md flex justify-center items-center flex-nowrap">
               {item?.location?.name}
             </label>
           </div>
@@ -45,6 +45,6 @@ const Characters = ({ characters }) => {
 };
 
 export default Characters;
-<label className="bg-green-100 shadow-md w-full text-pp h-8 rounded-md flex justify-center items-center flex-nowrap">
+<label className="bg-blue-200 shadow-md w-full text-pp h-8 rounded-md flex justify-center items-center flex-nowrap">
   {item?.location?.name}
 </label>
